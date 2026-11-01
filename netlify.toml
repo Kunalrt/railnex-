@@ -1,0 +1,14 @@
+[build]
+  publish = "client/dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://costs-aka-flood-match.trycloudflare.com/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

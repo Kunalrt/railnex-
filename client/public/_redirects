@@ -1,0 +1,2 @@
+/api/*  https://costs-aka-flood-match.trycloudflare.com/api/:splat  200!
+/*      /index.html                                                  200

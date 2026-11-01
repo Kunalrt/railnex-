@@ -11,3 +11,4 @@ android/build/
 bin/cloudflared.exe
 bin/*.exe
 .DS_Store
+.netlify/
