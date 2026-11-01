@@ -1,0 +1,16 @@
+{
+  "appId": "com.railnex.irctc",
+  "appName": "RailNex",
+  "webDir": "client/dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "url": "https://costs-aka-flood-match.trycloudflare.com",
+    "cleartext": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#182c57"
+    }
+  }
+}

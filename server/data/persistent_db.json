@@ -1,0 +1,412 @@
+{
+  "users": {
+    "kunal_rail": {
+      "id": "USR-IRCTC-10492",
+      "username": "kunal_rail",
+      "password": "password123",
+      "mpin": "1234",
+      "fullName": "Kunal Sharma",
+      "firstName": "Kunal",
+      "lastName": "Sharma",
+      "email": "kunal.sharma@railnex.in",
+      "mobile": "9876543210",
+      "gender": "Male",
+      "dob": "1996-08-15",
+      "occupation": "Professional",
+      "maritalStatus": "Unmarried",
+      "aadhaarNumber": "481928374910",
+      "aadhaarMasked": "XXXX-XXXX-4910",
+      "kycStatus": "VERIFIED",
+      "monthlyBookingLimit": 24,
+      "monthlyBookingsUsed": 2,
+      "address": "Station Road, Morabadi",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "pincode": "834001",
+      "securityQuestion": "What was your first school name?",
+      "registeredAt": "2026-01-10T10:00:00.000Z",
+      "masterPassengers": [
+        {
+          "id": "MP-1",
+          "name": "Kunal Sharma",
+          "age": 28,
+          "gender": "Male",
+          "berthPreference": "LB",
+          "food": "VEG",
+          "aadhaar": "481928374910",
+          "seniorCitizen": false
+        },
+        {
+          "id": "MP-2",
+          "name": "Sunita Sharma",
+          "age": 62,
+          "gender": "Female",
+          "berthPreference": "LB",
+          "food": "VEG",
+          "aadhaar": "582910394821",
+          "seniorCitizen": true
+        },
+        {
+          "id": "MP-3",
+          "name": "Amit Sharma",
+          "age": 31,
+          "gender": "Male",
+          "berthPreference": "SL",
+          "food": "NON_VEG",
+          "aadhaar": "791823940192",
+          "seniorCitizen": false
+        }
+      ]
+    },
+    "9876543210": {
+      "id": "USR-IRCTC-10492",
+      "username": "kunal_rail",
+      "password": "password123",
+      "mpin": "1234",
+      "fullName": "Kunal Sharma",
+      "firstName": "Kunal",
+      "lastName": "Sharma",
+      "email": "kunal.sharma@railnex.in",
+      "mobile": "9876543210",
+      "gender": "Male",
+      "dob": "1996-08-15",
+      "occupation": "Professional",
+      "maritalStatus": "Unmarried",
+      "aadhaarNumber": "481928374910",
+      "aadhaarMasked": "XXXX-XXXX-4910",
+      "kycStatus": "VERIFIED",
+      "monthlyBookingLimit": 24,
+      "monthlyBookingsUsed": 2,
+      "address": "Station Road, Morabadi",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "pincode": "834001",
+      "securityQuestion": "What was your first school name?",
+      "registeredAt": "2026-01-10T10:00:00.000Z",
+      "masterPassengers": [
+        {
+          "id": "MP-1",
+          "name": "Kunal Sharma",
+          "age": 28,
+          "gender": "Male",
+          "berthPreference": "LB",
+          "food": "VEG",
+          "aadhaar": "481928374910",
+          "seniorCitizen": false
+        },
+        {
+          "id": "MP-2",
+          "name": "Sunita Sharma",
+          "age": 62,
+          "gender": "Female",
+          "berthPreference": "LB",
+          "food": "VEG",
+          "aadhaar": "582910394821",
+          "seniorCitizen": true
+        },
+        {
+          "id": "MP-3",
+          "name": "Amit Sharma",
+          "age": 31,
+          "gender": "Male",
+          "berthPreference": "SL",
+          "food": "NON_VEG",
+          "aadhaar": "791823940192",
+          "seniorCitizen": false
+        }
+      ]
+    },
+    "kunal.sharma@railnex.in": {
+      "id": "USR-IRCTC-10492",
+      "username": "kunal_rail",
+      "password": "password123",
+      "mpin": "1234",
+      "fullName": "Kunal Sharma",
+      "firstName": "Kunal",
+      "lastName": "Sharma",
+      "email": "kunal.sharma@railnex.in",
+      "mobile": "9876543210",
+      "gender": "Male",
+      "dob": "1996-08-15",
+      "occupation": "Professional",
+      "maritalStatus": "Unmarried",
+      "aadhaarNumber": "481928374910",
+      "aadhaarMasked": "XXXX-XXXX-4910",
+      "kycStatus": "VERIFIED",
+      "monthlyBookingLimit": 24,
+      "monthlyBookingsUsed": 2,
+      "address": "Station Road, Morabadi",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "pincode": "834001",
+      "securityQuestion": "What was your first school name?",
+      "registeredAt": "2026-01-10T10:00:00.000Z",
+      "masterPassengers": [
+        {
+          "id": "MP-1",
+          "name": "Kunal Sharma",
+          "age": 28,
+          "gender": "Male",
+          "berthPreference": "LB",
+          "food": "VEG",
+          "aadhaar": "481928374910",
+          "seniorCitizen": false
+        },
+        {
+          "id": "MP-2",
+          "name": "Sunita Sharma",
+          "age": 62,
+          "gender": "Female",
+          "berthPreference": "LB",
+          "food": "VEG",
+          "aadhaar": "582910394821",
+          "seniorCitizen": true
+        },
+        {
+          "id": "MP-3",
+          "name": "Amit Sharma",
+          "age": 31,
+          "gender": "Male",
+          "berthPreference": "SL",
+          "food": "NON_VEG",
+          "aadhaar": "791823940192",
+          "seniorCitizen": false
+        }
+      ]
+    },
+    "kunal123": {
+      "id": "USR-IRCTC-25816",
+      "username": "kunal123",
+      "password": "Kunal123",
+      "fullName": "Kunal",
+      "firstName": "Kunal",
+      "lastName": "",
+      "email": "kunalchatterjee731@gmail.com",
+      "mobile": "4845458454",
+      "gender": "Male",
+      "dob": "1998-05-15",
+      "occupation": "Professional",
+      "maritalStatus": "Unmarried",
+      "aadhaarNumber": "147258036914",
+      "aadhaarMasked": "XXXX-XXXX-6914",
+      "kycStatus": "VERIFIED",
+      "monthlyBookingLimit": 24,
+      "monthlyBookingsUsed": 0,
+      "address": "",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "pincode": "834001",
+      "securityQuestion": "What is your pet's name?",
+      "securityAnswer": "Tiger",
+      "registeredAt": "2026-10-03T19:19:42.141Z"
+    },
+    "4845458454": {
+      "id": "USR-IRCTC-25816",
+      "username": "kunal123",
+      "password": "Kunal123",
+      "fullName": "Kunal",
+      "firstName": "Kunal",
+      "lastName": "",
+      "email": "kunalchatterjee731@gmail.com",
+      "mobile": "4845458454",
+      "gender": "Male",
+      "dob": "1998-05-15",
+      "occupation": "Professional",
+      "maritalStatus": "Unmarried",
+      "aadhaarNumber": "147258036914",
+      "aadhaarMasked": "XXXX-XXXX-6914",
+      "kycStatus": "VERIFIED",
+      "monthlyBookingLimit": 24,
+      "monthlyBookingsUsed": 0,
+      "address": "",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "pincode": "834001",
+      "securityQuestion": "What is your pet's name?",
+      "securityAnswer": "Tiger",
+      "registeredAt": "2026-10-03T19:19:42.141Z"
+    },
+    "kunalchatterjee731@gmail.com": {
+      "id": "USR-IRCTC-25816",
+      "username": "kunal123",
+      "password": "Kunal123",
+      "fullName": "Kunal",
+      "firstName": "Kunal",
+      "lastName": "",
+      "email": "kunalchatterjee731@gmail.com",
+      "mobile": "4845458454",
+      "gender": "Male",
+      "dob": "1998-05-15",
+      "occupation": "Professional",
+      "maritalStatus": "Unmarried",
+      "aadhaarNumber": "147258036914",
+      "aadhaarMasked": "XXXX-XXXX-6914",
+      "kycStatus": "VERIFIED",
+      "monthlyBookingLimit": 24,
+      "monthlyBookingsUsed": 0,
+      "address": "",
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "pincode": "834001",
+      "securityQuestion": "What is your pet's name?",
+      "securityAnswer": "Tiger",
+      "registeredAt": "2026-10-03T19:19:42.141Z"
+    }
+  },
+  "pnrs": {
+    "2458910243": {
+      "pnr": "2458910243",
+      "trainNumber": "20898",
+      "trainName": "VANDE BHARAT EXP",
+      "from": {
+        "code": "RNC",
+        "name": "Ranchi Jn",
+        "city": "Ranchi"
+      },
+      "to": {
+        "code": "HWH",
+        "name": "Howrah Jn",
+        "city": "Kolkata"
+      },
+      "date": "2026-10-03",
+      "travelClass": "CC",
+      "quota": "GENERAL",
+      "bookedAt": "2026-10-03T18:11:58.971Z",
+      "prsDigitalSignature": "CRIS-SIG-984129-SECURE-SHA256",
+      "chartStatus": "CHART PREPARED (Berths Confirmed)",
+      "status": "CONFIRMED",
+      "fare": {
+        "totalFare": 1285
+      },
+      "tteVerification": {
+        "isInspected": false,
+        "inspectedBy": null,
+        "inspectedAt": null,
+        "hhtDevice": "HHT-SER-4819 (Ranchi Division)",
+        "checkedPassengers": 0,
+        "totalPassengers": 1,
+        "allBoarded": false
+      },
+      "passengers": [
+        {
+          "id": 1,
+          "name": "KUNAL SHARMA",
+          "age": "28",
+          "gender": "Male",
+          "berthPreference": "Window (W)",
+          "coach": "C2",
+          "seatNumber": 18,
+          "allocatedBerth": "Lower Berth (LB)",
+          "bookingStatus": "CNF",
+          "currentStatus": "SWAPPED / C2 / 18 (via RailNex Exchange)",
+          "attendanceStatus": "UNCHECKED",
+          "aadhaarMasked": "XXXX-XXXX-4910",
+          "securityToken": "SEC-9148B-VALID",
+          "tteCheckedAt": null,
+          "tteRemark": null
+        }
+      ]
+    },
+    "826-7912807": {
+      "pnr": "826-7912807",
+      "trainNumber": "22350",
+      "trainName": "RANCHI - PATNA VANDE BHARAT",
+      "from": {
+        "code": "RNC"
+      },
+      "to": {
+        "code": "PNBE"
+      },
+      "date": "2026-12-07",
+      "travelClass": "CC",
+      "quota": "GENERAL",
+      "bookedAt": "2026-10-04T06:32:59.688Z",
+      "passengers": [
+        {
+          "id": 1,
+          "name": "KUNAL SHARMA",
+          "age": "30",
+          "gender": "Male",
+          "berthPreference": "LB",
+          "coach": "C3",
+          "seatNumber": 44,
+          "allocatedBerth": "Window (W)",
+          "bookingStatus": "CNF",
+          "currentStatus": "CNF / C3 / 44",
+          "attendanceStatus": "UNCHECKED",
+          "aadhaarMasked": "XXXX-XXXX-4910",
+          "securityToken": "800A1404291E42C3",
+          "tteCheckedAt": null,
+          "tteRemark": null
+        }
+      ],
+      "contact": {
+        "mobile": "9876543210",
+        "email": "kunal.sharma@railnex.in"
+      },
+      "preferences": {
+        "autoUpgradation": true,
+        "confirmBerthsOnly": true,
+        "travelInsurance": true
+      },
+      "prsDigitalSignature": "61422E32D764F8924353C9C460B39FF7",
+      "tteVerification": {
+        "isInspected": false,
+        "inspectedBy": null,
+        "inspectedAt": null,
+        "hhtDevice": "HHT-SER-4819 (Ranchi Division)",
+        "checkedPassengers": 0,
+        "totalPassengers": 1,
+        "allBoarded": false
+      },
+      "fare": {
+        "ticketFare": 1026,
+        "convenienceFee": 35,
+        "cateringFee": 0,
+        "totalFare": 1061
+      },
+      "payment": {
+        "method": "RAILNEX_IPAY",
+        "utr": "IPAY-1791095579686",
+        "vpa": "ipay.direct@railnex",
+        "status": "SETTLED",
+        "gateway": "CRIS_RAILWAY_SWITCH",
+        "settledAt": "2026-10-04T06:32:59.688Z"
+      },
+      "chartStatus": "CHART NOT PREPARED (Berth Confirmed via Railway PRS Engine)",
+      "status": "CONFIRMED"
+    }
+  },
+  "berthSwaps": [
+    {
+      "id": "SWAP-101",
+      "pnr": "2458910243",
+      "trainNumber": "20898",
+      "passengerName": "Kunal Sharma",
+      "passengerId": 1,
+      "currentCoach": "C2",
+      "currentSeat": 42,
+      "currentBerthType": "Window (W)",
+      "desiredBerthType": "Lower Berth (LB) or Aisle",
+      "reason": "Traveling with elderly parent, prefer Lower Berth or aisle access.",
+      "status": "ACCEPTED",
+      "acceptedBy": {
+        "pnr": "6748291034",
+        "passengerName": "Passenger",
+        "exchangedCoach": "C2",
+        "exchangedSeat": 18,
+        "acceptedAt": "2026-10-03T19:17:42.095Z"
+      },
+      "createdAt": "2026-10-03T18:41:58.971Z"
+    }
+  ],
+  "systemMetrics": {
+    "activeUsers": 8636,
+    "agentBotsBlocked": 1615,
+    "tatkalQueueProcessed": 3840,
+    "instantConfirmationRate": "98.4%",
+    "serverLatencyMs": 14,
+    "fairnessRating": "99.9%"
+  },
+  "lastSavedAt": "2026-10-04T06:32:59.696Z"
+}

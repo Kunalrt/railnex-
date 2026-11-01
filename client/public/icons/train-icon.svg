@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="trainGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Rounded App Icon Background -->
+  <rect width="512" height="512" rx="115" fill="url(#bgGrad)"/>
+  
+  <!-- Sleek High-Speed Train Body -->
+  <g transform="translate(96, 76)">
+    <!-- Main Chassis -->
+    <path d="M 40 40 C 40 10, 280 10, 280 40 L 290 240 C 290 270, 270 290, 240 290 L 80 290 C 50 290, 30 270, 30 240 Z" fill="url(#trainGrad)" filter="drop-shadow(0 15px 25px rgba(0,0,0,0.3))"/>
+    
+    <!-- Aerodynamic Front Windshield -->
+    <path d="M 60 50 C 60 30, 260 30, 260 50 L 268 120 C 268 135, 252 145, 230 145 L 90 145 C 68 145, 52 135, 52 120 Z" fill="#0f172a"/>
+    <path d="M 75 60 C 75 48, 245 48, 245 60 L 250 110 C 250 120, 240 128, 220 128 L 100 128 C 80 128, 70 120, 70 110 Z" fill="#1e293b"/>
+    <line x1="160" y1="50" x2="160" y2="135" stroke="#38bdf8" stroke-width="4" opacity="0.8"/>
+    
+    <!-- Vande Bharat Orange/Saffron Speed Stripe -->
+    <rect x="35" y="160" width="250" height="24" rx="6" fill="url(#accentGrad)"/>
+    
+    <!-- High-Beam LED Headlights -->
+    <circle cx="85" cy="225" r="18" fill="#fef08a" filter="drop-shadow(0 0 10px #fef08a)"/>
+    <circle cx="85" cy="225" r="10" fill="#ffffff"/>
+    
+    <circle cx="235" cy="225" r="18" fill="#fef08a" filter="drop-shadow(0 0 10px #fef08a)"/>
+    <circle cx="235" cy="225" r="10" fill="#ffffff"/>
+
+    <!-- Central Emblem / Grill -->
+    <rect x="135" y="215" width="50" height="22" rx="6" fill="#1e293b"/>
+    <line x1="145" y1="222" x2="175" y2="222" stroke="#60a5fa" stroke-width="3"/>
+    <line x1="145" y1="229" x2="175" y2="229" stroke="#60a5fa" stroke-width="3"/>
+    
+    <!-- Dual Tracks -->
+    <path d="M 15 330 L 100 300 L 120 300 L 35 330 Z" fill="#94a3b8"/>
+    <path d="M 305 330 L 220 300 L 200 300 L 285 330 Z" fill="#94a3b8"/>
+    <line x1="60" y1="318" x2="260" y2="318" stroke="#cbd5e1" stroke-width="6"/>
+  </g>
+</svg>

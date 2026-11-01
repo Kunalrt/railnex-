@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #eaedf2;
+    color: #212529;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  
+  #root {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: none;
+  }
+}
+
+/* Authentic IRCTC Color Tokens */
+:root {
+  --irctc-blue: #213d77;
+  --irctc-blue-dark: #172a53;
+  --irctc-orange: #fb792b;
+  --irctc-orange-hover: #e56517;
+  --irctc-gray-bg: #eaedf2;
+}
+
+.bg-irctc-blue {
+  background-color: #213d77;
+}
+
+.text-irctc-blue {
+  color: #213d77;
+}
+
+.border-irctc-blue {
+  border-color: #213d77;
+}
+
+.bg-irctc-orange {
+  background-color: #fb792b;
+}
+
+.hover\:bg-irctc-orange-hover:hover {
+  background-color: #e56517;
+}
+
+.text-irctc-orange {
+  color: #fb792b;
+}
+
+.border-irctc-orange {
+  border-color: #fb792b;
+}
+
+/* Continuous marquee ticker animation */
+@keyframes ticker {
+  0% { transform: translate3d(100%, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+
+.animate-ticker {
+  display: inline-block;
+  white-space: nowrap;
+  animation: ticker 30s linear infinite;
+}
+
+/* Authentic IRCTC Ticket Printable View */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  .print\:hidden {
+    display: none !important;
+  }
+  .print\:border {
+    border: 1px solid #333 !important;
+  }
+}

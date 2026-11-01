@@ -1,0 +1,13 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+mobile/node_modules/
+client/dist/
+android/.gradle/
+android/app/build/
+android/build/
+.env
+.env.*
+bin/cloudflared.exe
+bin/*.exe
+.DS_Store

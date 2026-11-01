@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icons/train-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>RailNex • India's Next-Gen Rail Booking Platform | Zero Agent Bots, Guaranteed Confirmation</title>
+    <meta name="description" content="RailNex is the high-speed independent train ticketing engine that solves IRCTC's agent bot scalping, eliminates 10 AM Tatkal crashes, and guarantees confirmed seats with AI route intelligence." />
+    
+    <!-- PWA & Mobile App Meta Tags -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#213d77" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="RailNex" />
+    <link rel="apple-touch-icon" href="/icons/train-icon.svg" />
+    <meta name="mobile-web-app-capable" content="yes" />
+  </head>
+  <body class="bg-slate-100 text-slate-900 antialiased selection:bg-blue-600 selection:text-white pb-16 md:pb-0">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // Register PWA Service Worker for Mobile Installation
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js").then(
+            (reg) => console.log("RailNex PWA Service Worker registered:", reg.scope),
+            (err) => console.log("RailNex Service Worker registration failed:", err)
+          );
+        });
+      }
+    </script>
+  </body>
+</html>

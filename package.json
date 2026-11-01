@@ -1,0 +1,24 @@
+{
+  "name": "irctc-nextgen-rail",
+  "version": "1.0.0",
+  "description": "Next-Gen Rail Booking Application with Anti-Agent Tatkal Shield & Smart Confirmation Engine",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run start:server\" \"npm run start:client\"",
+    "start:server": "node --watch server/index.js",
+    "start:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "start": "node server/index.js",
+    "tunnel": ".\\bin\\cloudflared.exe tunnel --url http://localhost:5000",
+    "mobile:sync": "npm run build && npx cap sync",
+    "mobile:android": "npx cap open android"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2"
+  }
+}

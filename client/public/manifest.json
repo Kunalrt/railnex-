@@ -1,0 +1,56 @@
+{
+  "name": "RailNex: Indian Railways PRS",
+  "short_name": "RailNex",
+  "description": "High-Speed Anti-Agent Train Ticket Booking App for Indian Railways with Zero Lag & Confirmed Berths",
+  "start_url": "/",
+  "id": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#213d77",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/train-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["travel", "utilities", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Book Train Tickets",
+      "short_name": "Book Trains",
+      "description": "Search and book Indian Railways confirmed train tickets",
+      "url": "/?tab=search",
+      "icons": [{ "src": "/icons/train-icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "Track PNR Status",
+      "short_name": "PNR Status",
+      "description": "Live Indian Railways 10-digit PNR enquiry",
+      "url": "/?tab=pnr",
+      "icons": [{ "src": "/icons/train-icon.svg", "sizes": "any" }]
+    },
+    {
+      "name": "My Booked Tickets",
+      "short_name": "My Tickets",
+      "description": "View and download official Electronic Reservation Slips (ERS)",
+      "url": "/?tab=bookings",
+      "icons": [{ "src": "/icons/train-icon.svg", "sizes": "any" }]
+    }
+  ]
+}
